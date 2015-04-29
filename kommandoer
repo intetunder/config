@@ -1,0 +1,53 @@
+sed 's/a//' file - To remove a specific character, say 'a', >tonewfile at the end after checking changes are right
+sed 's/a//g' file - To remove all occurences of 'a' in every line, >tonewfile at the end after checking changes are right
+sed 's/^.//' file - To remove 1st character in every line, >tonewfile at the end after checking changes are right
+cat /proc/cpuinfo - info about the cpu
+dhcpcd
+ls -R /
+tar -xvf foo.tar.gz 
+nc [IP] [PORT]
+nmap -A [IP]
+pstree
+ss -tuna
+setxkbmap no
+convert img.png img.jpg
+mplayer -vf screenshot tv:///dev/video0
+-u tor arm
+gpg -d <linode_root.asc 
+echo [Hva som skal i dokumentet] | gpg -ear passwd > [filnavn].asc
+tr -cd '[:alnum:]'</dev/urandom|head -c 32
+dd if=/dev/zero of=/dev/sda bs=1M
+randtxt
+partprobe - probe da disks
+echo [Det som skal inn] >>[Fil]Legg til >[Fil]Overskriv
+>> - legg til
+> - Overskriv
+uname - print system info
+tracepath [adresse]
+traceroute [adresse]
+dig [adresse]
+host [adresse] - Get the ip adress of the site
+nc qotd.nngn.net 17 - Quote
+cp [Fra hvor] [Til Hvor]
+ssh sander@106.186.125.214 -p 22022
+find / -iname '*.[filending]
+df -h - Available disk space
+xrandr --output HDMI1 --auto
+grep -rn "" (Søke på dataen)
+which [program]
+whereis [program]
+CTRL + R - Search previously used commands
+last - Shows last time each user has logged into the system
+chage -l [username] - List details about user password exparation
+ipcalc [iprange] - used to ascertain the host range
+ifconfig - information about the Network Interface Card(NIC)
+dmesg & dmesg | tail -(number  of lines to display) 
+ifconfig (network device) promisc
+scrot -s [nameofscreenshot].png
+curl [webpage url] - A command line tool for getting or sending files using URL syntax
+-i - Include protocl header in the output
+
+cat file1 file2 > newfile - combines multiple files and save the output into a new file
+ifconfig wlp3s0 promisc - Turn promiscious mode on
+`pkill -USR1 dd`  -- Check how far 'dd' is in writing
+journalctl -xf /usr/bin/sshd.service - to check ssh logons
