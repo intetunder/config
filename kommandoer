@@ -51,3 +51,13 @@ cat file1 file2 > newfile - combines multiple files and save the output into a n
 ifconfig wlp3s0 promisc - Turn promiscious mode on
 `pkill -USR1 dd`  -- Check how far 'dd' is in writing
 journalctl -xf /usr/bin/sshd.service - to check ssh logons
+
+sudo service network status - check status of services
+sudo service iptables show - same as systemctl 
+sudo service --status-all - Show all services on the computer
+
+
+
+
+
+
