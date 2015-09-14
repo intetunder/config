@@ -56,7 +56,7 @@ sudo service network status - check status of services
 sudo service iptables show - same as systemctl 
 sudo service --status-all - Show all services on the computer
 
-
+sudo ssm list - display lvm pools and disks
 
 
 
