@@ -1,0 +1,7 @@
+vagrant status - status of running vms
+vagrant box list - list available images
+vagrant box add [url] --name [name of image]
+vagrant vagrant init [name] - to generate vagrantfile in cwd
+vagrant up - to start from the vagrant file in cwd
+vagrant halt [hostname] - stop the vm
+vagrant global-status --prune - obsolete machines still in vagrant enviroment 
