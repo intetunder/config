@@ -1,0 +1,6 @@
+git init - create a new dir
+git clone [url] - copy a remote dir to local
+git add [filename] or * - add changes to index
+git commit -m "message" - commited to HEAD
+git push origin master - send to remote repo
+
